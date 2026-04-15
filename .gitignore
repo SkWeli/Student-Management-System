@@ -1,0 +1,71 @@
+# ========================
+# Maven
+# ========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ========================
+# Spring Boot
+# ========================
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# ========================
+# IntelliJ IDEA
+# ========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# ========================
+# Environment & Secrets  <-- CRITICAL: never commit these
+# ========================
+.env
+.env.*
+application-local.yml
+application-prod.yml
+secrets.yml
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+*.log.*
+spring.log
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+
+# ========================
+# Test output
+# ========================
+/test-output/
+surefire-reports/
